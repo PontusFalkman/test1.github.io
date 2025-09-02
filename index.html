@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Studio Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">BrickWorks Studio</a>
+      <nav class="nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>We build small, sharp games.</h1>
+      <p class="tagline">Unity-focused micro-studio.</p>
+      <a class="btn" href="#projects">View projects</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="images/project1.jpg" alt="Project screenshot" />
+          <div class="card-body">
+            <h3>The Odd One Out</h3>
+            <p>Drag-and-drop logic puzzle with audio cues and sorting challenges.</p>
+            <div class="card-actions">
+              <a class="btn btn-light" href="#" target="_blank">Play demo</a>
+              <a class="btn btn-ghost" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/project2.jpg" alt="Project screenshot" />
+          <div class="card-body">
+            <h3>2D Platformer</h3>
+            <p>Three handcrafted levels: classic, dark, and ice with slide physics.</p>
+            <div class="card-actions">
+              <a class="btn btn-light" href="#" target="_blank">Play demo</a>
+              <a class="btn btn-ghost" href="#" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> BrickWorks Studio</p>
+      <div class="social">
+        <a href="https://github.com/PontusFalkman?tab=repositories" target="_blank">GitHub</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="https://www.youtube.com/@BWStudio-mx" target="_blank">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
